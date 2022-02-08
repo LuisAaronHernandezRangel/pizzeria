@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) =>
 
 export default function Pizzas() {
   const classes = useStyles();
-  const tipos=[{title:"Cerveza 437 ml",precio:"10",url:"../cerveza.png"},{title:"Agua 500ml",precio:"10",url:"../agua.png"},{title:"Coca-Cola 500ml",precio:"10",url:"../napolitana.png"},{title:"Naranja 1l",precio:"10",url:"../naranja.png"}]
+  const tipos=[{title:"Cerveza 437 ml",precio:"10",url:"../cerveza.png"},{title:"Agua 500ml",precio:"10",url:"../agua.png"},{title:"Coca-Cola 500ml",precio:"10",url:"../coca.png"},{title:"Naranja 1l",precio:"10",url:"../naranja.png"}]
   
   return (
     <div className={classes.root}>
